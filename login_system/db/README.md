@@ -1,4 +1,4 @@
-#Database login system
+# Database login system
 
 db.php - connected on full site. ( Save session and connect to the database )
 
