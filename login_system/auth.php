@@ -17,14 +17,14 @@ if( isset($data['submit_auth']))
 		if( password_verify($data['password'], $user->password) )
 		{
 			$_SESSION['logged_user'] = $user;
-			echo '<div style="color: green;">You are not gay</div><hr>';
+			echo '<div style="color: green;">Аuthorization complited</div><hr>';
 		} else
 		{
-			$errors[] = 'Pass not true';
+			$errors[] = 'Password not true';
 		}
 	} else
 	{
-		$errors[] = 'Not found';
+		$errors[] = 'User not found';
 	}
 
 	if( ! empty($errors))
