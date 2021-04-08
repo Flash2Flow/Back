@@ -1,1 +1,1 @@
-# MAIN desc for system
+# Main desc for system
