@@ -35,7 +35,7 @@ if( isset($data['submit_reg']) )
 		$user->login = $data['login'];
 		$user->password = password_hash($data['password'], PASSWORD_DEFAULT);
 		R::store($user);
-		echo '<div style="color: green;">You are gay</div><hr>';
+		echo '<div style="color: green;">Account created!</div><hr>';
 	} else
 
 //if error, show error
