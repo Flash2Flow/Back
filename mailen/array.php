@@ -59,18 +59,4 @@ $assist_manage = $assist_frac;
 $assist_manage = $assist_civilrep;
 $assist_manage = $assist_rpsit;
 
-//tables array
-$dev_perm = $perm13;
-$tables_full = $perm12;
-$tables_admins = $perm11;
-$tables_supports = $perm10;
-$tables_events = $perm9;
-$tables_forum = $perm8;
-$tables_country = $perm7;
-$tables_bio = $perm6;
-$tables_civil = $perm5;
-$tables_crime = $perm4;
-$tables_frac = $perm3;
-$tables_civilrep = $perm2;
-$tables_rpsit = $perm1;
 ?>
