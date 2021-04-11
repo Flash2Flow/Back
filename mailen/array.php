@@ -1,3 +1,4 @@
+<?php
 //main manage list
 $founder = $id_group1;
 $developer = $id_group2;
@@ -57,3 +58,4 @@ $assist_manage = $assist_crime;
 $assist_manage = $assist_frac;
 $assist_manage = $assist_civilrep;
 $assist_manage = $assist_rpsit;
+?>
