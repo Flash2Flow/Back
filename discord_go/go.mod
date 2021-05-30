@@ -1,4 +1,4 @@
-module discord_go_reincarnation
+module discord_go_reincarnation_examples
 
 go 1.16
 
